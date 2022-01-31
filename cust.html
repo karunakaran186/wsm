@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<title>customer code</title>
+<script language="javascript">
+function con()
+{
+  if(f.T7.value != f.T8.value)
+  {
+     alert("Confirmation is not correct");
+     //f.T8.focus();
+  }
+}
+</script>
+</head>
+
+<body>
+
+<form name ="f" method="POST" action="http:\\localhost:7000\examples\krishna\custReg.jsp">
+  <div align="center">
+    <center>
+    <table border="0" width="60%" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF">
+      <tr>
+        <td width="50%">customer code&nbsp;</td>
+        <td width="50%"><input type="text" name="T1" size="20"></td>
+      </tr>
+      <tr>
+        <td width="50%">customer name&nbsp;&nbsp;&nbsp;</td>
+        <td width="50%"><input type="text" name="T2" size="20"></td>
+      </tr>
+      <tr>
+        <td width="50%">Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td width="50%"><input type="password" name="T7" size="20"></td>
+      </tr>
+      <tr>
+        <td width="50%">Confirm Password&nbsp;</td>
+        <td width="50%"><input type="password" name="T8" size="20" onblur="con();"></td>
+      </tr>
+      <tr>
+        <td width="50%">company&nbsp;&nbsp;</td>
+        <td width="50%"><input type="text" name="T3" size="20"></td>
+      </tr>
+      <tr>
+        <td width="50%">address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td width="50%"><input type="text" name="T4" size="20"></td>
+      </tr>
+      <tr>
+        <td width="50%">phone</td>
+        <td width="50%"><input type="text" name="T5" size="20">
+        </td>
+      </tr>
+      <tr>
+        <td width="50%">Mail
+  Id</td>
+        <td width="50%"><input type="text" name="T6" size="20">
+        </td>
+      </tr>
+    </table>
+    </center>
+  </div>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="submit" name="B1"><input type="reset" value="cancel" name="B2"></p>
+</form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+<head>
+<script language="javascript">
+var x=0;
+function drop()
+{
+x=f.item.selectedIndex;
+f.prd.value=x;
+alert(x);
+}
+</script>
+</head>
+<body>
+<form name="f">
+<p><select size="1" name="item" onblur="drop();">
+  <option selected>1</option>
+  <option>2</option>
+  <option>3</option>
+</select><select size="1" name="prd">
+  <option>one</option>
+  <option>two</option>
+  <option>three</option>
+</select></p>
+</form>
+</body>
+</html>
+

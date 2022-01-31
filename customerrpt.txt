@@ -1,0 +1,15 @@
+<html>
+<body>
+<form method="POST" action="http://localhost:7000/examples/krishna/custcoderpt.jsp">
+  <p align="center"><font face="Book Antiqua" size="4"><b><i>Report Based On
+  Customer Code</i></b></font></p>
+  <p align="center"><input type="text" name="T1" size="20"><input type="submit" value="Submit" name="B1"></p>
+</form>
+<form method="POST" action="http://localhost:7000/examples/krishna/ordernorpt.jsp">
+  <p align="center"><font face="Book Antiqua" size="4"><b><i>Report Based On
+  Order Number</i></b></font></p>
+  <p align="center"><input type="text" name="T1" size="20"><input type="submit" value="Submit" name="B1"></p>
+</form>
+</body>
+</html>
+
